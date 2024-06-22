@@ -1,7 +1,7 @@
 import { Button } from '@mui/material';
 import React from 'react';
 import CurrencyFormat from 'react-currency-format';
-import './subtotal.css';
+import subtotal from './subtotal.css';
 import { useStateValue } from './StateProvider';
 
 function Subtotal() {
@@ -25,12 +25,12 @@ function Subtotal() {
                     </>
                 )}
                 decimalScale={2}
-                value={totalPrice()} // Invoke totalPrice function to get the total price
+                value={totalPrice()}
                 displayType={"text"}
                 thousandSeparator={true}
                 prefix={"$"}
             />
-            <Button className='subtotal-checkout-btn'>Proceed To Checkout</Button>
+            <button className='subtotal-checkout-btn'>Proceed To Checkout</button>
         </div>
     );
 }

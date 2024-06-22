@@ -9,6 +9,7 @@ function Header() {
     const [{basket}, dispatch] = useStateValue();
   return (
     <div className='header'>
+      
         <Link to='/'>
             <img className='header-image-logo' src='http://pngimg.com/uploads/amazon/amazon_PNG11.png'></img>
         </Link>
@@ -20,10 +21,12 @@ function Header() {
       </div>
 
       <div className='header-nav'>
+        <Link to="/login">
         <div className='header-option'>
             <span className='header-option-line-one'>Hello</span>
             <span className='header-option-line-two'>Sign In</span>
         </div>
+        </Link>
 
         <div className='header-option'>
             <span className='header-option-line-one'>Returns</span>

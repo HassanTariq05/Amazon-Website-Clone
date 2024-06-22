@@ -13,6 +13,7 @@ function CheckoutProduct({id, image, title, price, rating}) {
             id: id
         })
     }
+    
   return (
     <div className='checkoutProduct'>
       <img className='checkoutProduct-image' src={image}/>
@@ -28,7 +29,7 @@ function CheckoutProduct({id, image, title, price, rating}) {
                 <p key={i}>⭐</p>
             ))}
         </div>
-        <Button onClick={removeFromBasket} className='remove-from-basket-button'>Remove from Basket</Button>
+        <button onClick={removeFromBasket} className='remove-from-basket-button'>Remove from Basket</button>
       </div>
 
     </div>

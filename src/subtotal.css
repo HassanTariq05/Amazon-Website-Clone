@@ -16,6 +16,7 @@
 }
 
 .subtotal-checkout-btn {
+    cursor: pointer;
     text-transform: none;
     background: #f0c14b;
     border: 1px solid;
