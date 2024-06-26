@@ -9,8 +9,15 @@
     margin: 10px;
     border-radius: 8px;
     justify-content: flex-end;
-    padding: 20px;
+    padding: 15px;
 }
+
+.product-container:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 4px 4px 8px rgba(38, 38, 38, 0.2);
+    border: 1px solid rgb(240, 193, 75);
+    background-color: white;
+  }
 
 .product-desc {
     font-size: 16px;
@@ -43,7 +50,7 @@
 }
 
 .product-buy-button {
-    background: #f0c14b;
+    background: rgb(240, 193, 75);
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;

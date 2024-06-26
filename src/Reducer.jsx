@@ -32,6 +32,12 @@ export const Reducer = (state, action) => {
             
             };
                 
+        case 'SET_USER':
+            return {
+                ...state,
+                user: action.user
+            }
+
 
         default: {
             return state;

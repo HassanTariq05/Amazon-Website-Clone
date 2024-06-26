@@ -13,7 +13,6 @@ function CheckoutProduct({id, image, title, price, rating}) {
             id: id
         })
     }
-    
   return (
     <div className='checkoutProduct'>
       <img className='checkoutProduct-image' src={image}/>

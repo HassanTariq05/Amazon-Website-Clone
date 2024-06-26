@@ -1,12 +1,17 @@
 import React from 'react'
-import home from './home.css'
+import './home.css'
 import Product from './Product'
+import BannerSlider from './BannerSlider'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 
 function Home() {
   return (
     <div className='home'>
       <div className='home-container'>
-        <img className='home-cover-img' src='https://i.tribune.com.pk/media/images/amazon1657020459-0/amazon1657020459-0.jpg'></img>
+        <BannerSlider/>
+
 
         <div className="home-row">
             <Product 
