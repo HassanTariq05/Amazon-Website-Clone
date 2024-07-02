@@ -16,3 +16,40 @@
     padding: 10px;
     border-bottom: 1px solid lightgray;
 }
+
+.empty-cart-div {
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.empty-basket-img {
+    width: 400px;
+    height: fit-content;
+    margin-right: 20px;
+}
+
+.empty-basket-text {
+    font-size: 30px;
+    font-weight: bolder;
+}
+.empty-basket-nav-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-item-btn {
+    cursor: pointer;
+    text-transform: none;
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}

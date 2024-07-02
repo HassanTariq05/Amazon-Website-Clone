@@ -15,6 +15,36 @@ function Home() {
 
         <div className="home-row">
             <Product 
+                id= '111'
+                title="WallFlower Women's Legendary Slim Bootcut Mid-Rise Belted Insta Stretch Juniors Jeans (Standard and Plus)"
+                price={42.99}
+                rating={4}
+                image="https://m.media-amazon.com/images/I/712KHFWBJRL._AC_UL640_FMwebp_QL65_.jpg"
+            />
+            <Product 
+                id='2341'
+                title='Neutrogena Sport Face Sunscreen, Broad Spectrum Sunblock SPF 70+, Water Resistant Sunscreen For Face, Sweat Resistant Oil Free Sunscreen Lotion, 2.5 FL OZ'
+                price={9.51}
+                rating={2}
+                image="https://m.media-amazon.com/images/I/71YgBdC1qDL._SX679_.jpg"
+            />
+            <Product 
+                id='2342'
+                title='Amazon Basics Neoprene Coated Hexagon Workout Dumbbell Hand Weight'
+                price={25.1}
+                rating={5}
+                image="https://m.media-amazon.com/images/I/81Y26toqdTL._AC_SX679_.jpg"
+            />
+            <Product 
+                id='2343'
+                title='FORTNITE (Official): Battle Royale Survival Guide (Official Fortnite Books) '
+                price={5.50}
+                rating={2}
+                image="https://m.media-amazon.com/images/I/81KSWxDUDxL._SY522_.jpg"
+            />
+        </div>
+        <div className="home-row">
+            <Product 
                 id= '123'
                 title='BestOffice High-Back Gaming Chair PC Office Chair Computer Racing Chair PU Desk Task Chair Ergonomic Executive Swivel Rolling Chair with Lumbar Support for Back Pain Women, Men,White'
                 price={144.41}

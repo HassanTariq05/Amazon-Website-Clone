@@ -31,6 +31,7 @@ const BannerSlider = () => {
     infinite: true,
     autoplay: true,
     autoplaySpeed: 5000,
+    pauseOnHover: false,
   };
 
   return (
@@ -44,6 +45,12 @@ const BannerSlider = () => {
         </div>
         <div>
           <img src="https://m.media-amazon.com/images/I/61CiqVTRBEL._SX3000_.jpg" alt="" />
+        </div>
+        <div>
+          <img src="https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg" alt="" />
+        </div>
+        <div>
+          <img src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg" alt="" />
         </div>
       </Slider>
     </div>
