@@ -1,0 +1,89 @@
+.order {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 25px 0;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+} /* Header */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #f7f7f7;
+  border-bottom: 1px solid #ddd;
+  padding: 18px 22px;
+}
+.order-label {
+  display: block;
+  color: #565959;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  margin-bottom: 5px;
+}
+.order-date {
+  margin: 0;
+  color: #111;
+  font-size: 14px;
+}
+.order-total {
+  text-align: right;
+}
+.order-total p {
+  margin: 0;
+  color: #111;
+  font-size: 15px;
+  font-weight: 600;
+} /* Order information */
+.order-info {
+  padding: 14px 22px;
+  border-bottom: 1px solid #eee;
+}
+.order-info p {
+  margin: 0;
+  color: #2162a1;
+  font-size: 13px;
+  word-break: break-all;
+} /* Products */
+.order-body {
+  padding: 20px 22px;
+}
+.order-body h3 {
+  margin: 0 0 18px;
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+}
+.order-products {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+} /* Override CheckoutProduct styles when used inside an order */
+.order-products .checkoutProduct {
+  margin: 0;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background: #fff;
+} /* Responsive */
+@media (max-width: 600px) {
+  .order-header {
+    padding: 15px;
+  }
+  .order-body {
+    padding: 15px;
+  }
+  .order-info {
+    padding: 12px 15px;
+  }
+  .order-header {
+    gap: 20px;
+  }
+  .order-date {
+    font-size: 13px;
+  }
+  .order-total p {
+    font-size: 14px;
+  }
+}
